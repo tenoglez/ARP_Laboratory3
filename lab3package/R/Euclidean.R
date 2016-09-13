@@ -18,10 +18,11 @@
 #' euclidean(1000, 250)
 #' 
 euclidean <- function(a, b){
-  if(a%%1 == 0 & b%%1 == 0){
-    if (b == 0){
-      return (a) 
-    } 
-    else return (euclidean(b, a %% b)) 
-  } else stop("ERROR: Invalid input values")
+  stopifnot(length(a) == 1, length(b) == 1, is.numeric(c(a,b)), a%%1 == 0 & b%%1 == 0)
+  a <- abs(a)
+  b <- abs(b)
+  if (b == 0){
+    return (a) 
+  } 
+  else return (euclidean(b, a %% b)) 
 }

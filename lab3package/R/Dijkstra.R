@@ -22,7 +22,7 @@
 #' 
 dijkstra <- function(graph, init_node) {
   # stop in case graph is not a data frame with numeric columns (v1, v2, w) and init_node is a numeric scalar
-  stopifnot(is.data.frame(graph), is.numeric(init_node), colnames(graph) == c("v1", "v2", "w"), sapply(wiki_graph, is.numeric))
+  stopifnot(is.data.frame(graph), sapply(wiki_graph, length) > 0, is.numeric(init_node), colnames(graph) == c("v1", "v2", "w"), sapply(wiki_graph, is.numeric))
   
   # vector Q with all the vertex
   Q <- unique(c(graph$v1, graph$v2))
