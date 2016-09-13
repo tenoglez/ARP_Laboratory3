@@ -1,6 +1,4 @@
-# euclidean
 
-# dijkstra
 dijkstra <- function(graph, init_node) {
   # stop in case graph is not a data frame with numeric columns (v1, v2, w) and init_node is a numeric scalar
   stopifnot(is.data.frame(graph), is.numeric(init_node), colnames(graph) == c("v1", "v2", "w"), sapply(wiki_graph, is.numeric))
