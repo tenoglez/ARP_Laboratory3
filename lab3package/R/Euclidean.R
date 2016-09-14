@@ -1,5 +1,5 @@
 #' Recursive Euclidean algorithm function
-#' 
+#' @export 
 #' @description 
 #' Algorithm to find the greatest common divisor of two numbers
 #' 

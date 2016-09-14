@@ -1,4 +1,5 @@
 #' Dijkstra algorithm
+#' @export
 #' 
 #' @description 
 #' Algorithm that takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph.

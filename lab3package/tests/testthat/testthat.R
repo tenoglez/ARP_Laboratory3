@@ -48,4 +48,3 @@ test_that("graph is a data frame with the columns (v1, v2, w)",{
                                    w=c(7,9,14,7,10,15,9,10,11,2,15,11,6,6,9,14,2,9)), 1), "colnames(graph) == c(\"v1\", \"v2\", \"w\") are not all TRUE", fixed=TRUE)
 })
 
-
