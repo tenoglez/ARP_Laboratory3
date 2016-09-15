@@ -1,5 +1,5 @@
 #' A package for computating the notorious Dijkstra and Euclidean algorithms.
-#' @export
+#'
 #' @description The lab3package provides two categories of important functions:
 #' euclidean and dijkstra. Furthermore, it contains the dataset wiki_graph for dijkstra funtion testing. 
 #' 
