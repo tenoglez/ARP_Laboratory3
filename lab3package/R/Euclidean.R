@@ -11,7 +11,7 @@
 #' 
 #' @references 
 #' 
-#' Euclidean algorithm - https://en.wikipedia.org/wiki/Euclidean_algorithm
+#' Euclidean algorithm - \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 #' 
 #' @examples
 #' euclidean(93164, 5826)

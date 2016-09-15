@@ -11,8 +11,7 @@
 #' @return \code{vector} with the shortest path from the initial node to every other node
 #' 
 #' @references 
-#' 
-#' Dijkstra algorithm - https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+#'Dijkstra algorithm - \url{https://en.wikipedia.org/wiki/Dijkstras_algorithm}
 #' 
 #' @examples
 #' wiki_graph <- data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
